@@ -31,8 +31,8 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 
 // Countdown Timer
 function updateCountdown() {
-    // Set the date we're counting down to (March 15, 2025, 20:30)
-    const countDownDate = new Date("March 15, 2025 20:30:00").getTime();
+    // Set the date we're counting down to (November 21, 2025, 20:30)
+    const countDownDate = new Date("November 21, 2025 20:30:00").getTime();
 
     // Update the count down every 1 second
     const x = setInterval(function() {
@@ -205,5 +205,5 @@ window.addEventListener('scroll', () => {
 });
 
 // Log page load
-console.log('Cena Solidaria La Guía - Website loaded successfully!');
-console.log('For any issues, please contact: info@cenasolidarialaguia.es');
+console.log('Cena Solidaria 2025 - Casa de Acogida La Guía - Website loaded successfully!');
+console.log('For any issues, please contact: casadeacogidaguia@hotmail.es');

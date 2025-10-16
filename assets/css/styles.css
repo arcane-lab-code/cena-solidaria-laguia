@@ -728,3 +728,193 @@ h1, h2, h3, h4, h5, h6 {
         transform: none;
     }
 }
+
+/* Additional Styles for New Sections */
+
+/* Causa Intro */
+.causa-intro {
+    max-width: 900px;
+    margin: 0 auto 3rem;
+    text-align: center;
+}
+
+.causa-intro p {
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+}
+
+.causa-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+    margin-bottom: 3rem;
+}
+
+.contacto-casa {
+    background: var(--bg-light);
+    padding: 2rem;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.contacto-casa h4 {
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+.contacto-casa p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+}
+
+.contacto-casa a {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.contacto-casa a:hover {
+    color: var(--secondary-color);
+}
+
+/* Artistas Section */
+.artistas {
+    background: var(--bg-light);
+}
+
+.artistas-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.artista-card {
+    background: var(--bg-white);
+    padding: 2.5rem;
+    border-radius: 15px;
+    box-shadow: var(--shadow);
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.artista-card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-lg);
+}
+
+.artista-icon {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+
+.artista-card h3 {
+    color: var(--primary-color);
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.artista-card p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: var(--text-light);
+}
+
+/* Donacion Info */
+.donacion-info {
+    background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+    color: white;
+    padding: 2.5rem;
+    border-radius: 15px;
+    margin: 3rem 0;
+    text-align: center;
+}
+
+.donacion-info h3 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: white;
+}
+
+.donacion-info p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.donacion-info strong {
+    font-weight: 700;
+    font-size: 1.1em;
+}
+
+.donacion-info .deduccion {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 1rem;
+    border-radius: 8px;
+    margin-top: 1.5rem;
+    font-size: 1.1rem;
+}
+
+/* Location Info in Evento Section */
+.location-info {
+    background: var(--bg-light);
+    padding: 2rem;
+    border-radius: 10px;
+    margin-top: 2rem;
+}
+
+.location-info h4 {
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+.location-info p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+}
+
+/* Event Location in Contact */
+.evento-location {
+    background: var(--bg-light);
+    padding: 2rem;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.evento-location h4 {
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+.evento-location p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+}
+
+/* Responsive adjustments for new sections */
+@media (max-width: 768px) {
+    .causa-cards {
+        grid-template-columns: 1fr;
+    }
+
+    .artistas-content {
+        grid-template-columns: 1fr;
+    }
+
+    .donacion-info {
+        padding: 2rem 1.5rem;
+    }
+
+    .donacion-info h3 {
+        font-size: 1.5rem;
+    }
+
+    .donacion-info p {
+        font-size: 1rem;
+    }
+}
