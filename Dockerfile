@@ -1,5 +1,6 @@
 FROM nginx:alpine
 
+# Cena Solidaria La Guía - Static Website
 # Copy website files
 COPY index.html /usr/share/nginx/html/
 COPY assets /usr/share/nginx/html/assets/
