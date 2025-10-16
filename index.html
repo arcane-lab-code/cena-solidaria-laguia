@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Cena Solidaria La Guía - Evento benéfico para recaudar fondos para la comunidad">
+    <meta name="keywords" content="cena solidaria, evento benéfico, La Guía, caridad, donación">
+    <title>Cena Solidaria La Guía 2025</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header / Navigation -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="container">
+                <div class="nav-brand">
+                    <h1>🍽️ Cena Solidaria La Guía</h1>
+                </div>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#evento">El Evento</a></li>
+                    <li><a href="#causa">Nuestra Causa</a></li>
+                    <li><a href="#menu">Menú</a></li>
+                    <li><a href="#inscripcion">Inscripción</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+                <div class="nav-toggle" id="navToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h2 class="hero-title">Cena Solidaria La Guía 2025</h2>
+            <p class="hero-subtitle">Juntos por una causa, unidos por la solidaridad</p>
+            <div class="hero-info">
+                <div class="info-item">
+                    <span class="icon">📅</span>
+                    <div>
+                        <strong>Fecha</strong>
+                        <p>Sábado 15 de Marzo, 2025</p>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <span class="icon">🕗</span>
+                    <div>
+                        <strong>Hora</strong>
+                        <p>20:30h</p>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <span class="icon">📍</span>
+                    <div>
+                        <strong>Lugar</strong>
+                        <p>Salón Cultural La Guía</p>
+                    </div>
+                </div>
+            </div>
+            <a href="#inscripcion" class="btn btn-primary btn-hero">Reservar Mi Plaza</a>
+        </div>
+    </section>
+
+    <!-- Contador Regresivo -->
+    <section class="countdown-section">
+        <div class="container">
+            <h3>Faltan para la cena:</h3>
+            <div class="countdown" id="countdown">
+                <div class="countdown-item">
+                    <span id="days">0</span>
+                    <p>Días</p>
+                </div>
+                <div class="countdown-item">
+                    <span id="hours">0</span>
+                    <p>Horas</p>
+                </div>
+                <div class="countdown-item">
+                    <span id="minutes">0</span>
+                    <p>Minutos</p>
+                </div>
+                <div class="countdown-item">
+                    <span id="seconds">0</span>
+                    <p>Segundos</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre el Evento -->
+    <section id="evento" class="section evento">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Sobre el Evento</h2>
+                <p class="section-subtitle">Una noche especial con propósito</p>
+            </div>
+            <div class="evento-content">
+                <div class="evento-text">
+                    <p class="lead">La Cena Solidaria La Guía es un evento benéfico anual que reúne a la comunidad con un objetivo común: recaudar fondos para apoyar a familias necesitadas de nuestra localidad.</p>
+
+                    <div class="features">
+                        <div class="feature">
+                            <span class="feature-icon">🍷</span>
+                            <div>
+                                <h4>Cena Gourmet</h4>
+                                <p>Menú elaborado por chef profesional con ingredientes locales de primera calidad</p>
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <span class="feature-icon">🎵</span>
+                            <div>
+                                <h4>Música en Vivo</h4>
+                                <p>Actuaciones de artistas locales durante toda la velada</p>
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <span class="feature-icon">🎁</span>
+                            <div>
+                                <h4>Rifa Solidaria</h4>
+                                <p>Sorteo de premios donados por comercios locales</p>
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <span class="feature-icon">❤️</span>
+                            <div>
+                                <h4>100% Solidario</h4>
+                                <p>Todos los beneficios van destinados a nuestra causa</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Nuestra Causa -->
+    <section id="causa" class="section causa">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Nuestra Causa</h2>
+                <p class="section-subtitle">Por qué necesitamos tu apoyo</p>
+            </div>
+            <div class="causa-content">
+                <div class="causa-card">
+                    <div class="causa-icon">🏠</div>
+                    <h3>Ayuda a Familias</h3>
+                    <p>Apoyo económico directo a familias en situación de vulnerabilidad de La Guía</p>
+                </div>
+                <div class="causa-card">
+                    <div class="causa-icon">🎓</div>
+                    <h3>Becas Escolares</h3>
+                    <p>Financiación de material escolar y actividades educativas para niños</p>
+                </div>
+                <div class="causa-card">
+                    <div class="causa-icon">🍲</div>
+                    <h3>Comedor Social</h3>
+                    <p>Mantenimiento del comedor social que atiende a 50 familias semanalmente</p>
+                </div>
+            </div>
+
+            <div class="stats">
+                <div class="stat-item">
+                    <div class="stat-number">€12,000</div>
+                    <div class="stat-label">Objetivo de Recaudación</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">150+</div>
+                    <div class="stat-label">Familias Beneficiadas</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">5º</div>
+                    <div class="stat-label">Edición Anual</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menú -->
+    <section id="menu" class="section menu">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Menú de la Cena</h2>
+                <p class="section-subtitle">Elaborado con productos locales y de temporada</p>
+            </div>
+            <div class="menu-content">
+                <div class="menu-course">
+                    <h3>🥗 Entrantes</h3>
+                    <div class="menu-item">
+                        <h4>Ensalada de la Huerta</h4>
+                        <p>Tomate, lechuga, zanahoria y aceitunas con vinagreta casera</p>
+                    </div>
+                    <div class="menu-item">
+                        <h4>Crema de Calabaza</h4>
+                        <p>Con semillas de calabaza tostadas y aceite de oliva virgen extra</p>
+                    </div>
+                </div>
+
+                <div class="menu-course">
+                    <h3>🍽️ Plato Principal (a elegir)</h3>
+                    <div class="menu-item">
+                        <h4>Solomillo de Ternera al Oporto</h4>
+                        <p>Con patatas asadas y verduras de temporada</p>
+                    </div>
+                    <div class="menu-item">
+                        <h4>Bacalao al Pilpil</h4>
+                        <p>Con pimientos del piquillo y alioli casero</p>
+                    </div>
+                    <div class="menu-item">
+                        <h4>Risotto de Setas (Vegetariano)</h4>
+                        <p>Con queso parmesano y trufa</p>
+                    </div>
+                </div>
+
+                <div class="menu-course">
+                    <h3>🍰 Postre</h3>
+                    <div class="menu-item">
+                        <h4>Tarta de Santiago</h4>
+                        <p>Tradicional tarta de almendras con helado de vainilla</p>
+                    </div>
+                </div>
+
+                <div class="menu-course">
+                    <h3>☕ Café e Infusiones</h3>
+                </div>
+
+                <div class="menu-bebidas">
+                    <p><strong>Bebidas incluidas:</strong> Agua, vino (tinto/blanco) y refrescos</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Inscripción -->
+    <section id="inscripcion" class="section inscripcion">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Reserva tu Plaza</h2>
+                <p class="section-subtitle">Las plazas son limitadas - ¡No te quedes sin la tuya!</p>
+            </div>
+
+            <div class="precio-info">
+                <div class="precio-card">
+                    <h3>Entrada Individual</h3>
+                    <div class="precio">€35</div>
+                    <p class="precio-incluye">Incluye menú completo, bebidas y rifa</p>
+                </div>
+                <div class="precio-card featured">
+                    <div class="badge">Mejor Valor</div>
+                    <h3>Mesa Completa</h3>
+                    <div class="precio">€320</div>
+                    <p class="precio-incluye">10 personas • Mejor ubicación • Regalo especial</p>
+                </div>
+            </div>
+
+            <div class="form-container">
+                <form id="inscripcionForm" class="inscripcion-form">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="nombre">Nombre completo *</label>
+                            <input type="text" id="nombre" name="nombre" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="telefono">Teléfono *</label>
+                            <input type="tel" id="telefono" name="telefono" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="plazas">Número de plazas *</label>
+                            <select id="plazas" name="plazas" required>
+                                <option value="">Seleccionar...</option>
+                                <option value="1">1 persona (€35)</option>
+                                <option value="2">2 personas (€70)</option>
+                                <option value="3">3 personas (€105)</option>
+                                <option value="4">4 personas (€140)</option>
+                                <option value="5">5 personas (€175)</option>
+                                <option value="6">6 personas (€210)</option>
+                                <option value="10">Mesa completa - 10 personas (€320)</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="plato">Preferencia de plato principal *</label>
+                        <select id="plato" name="plato" required>
+                            <option value="">Seleccionar...</option>
+                            <option value="solomillo">Solomillo de Ternera</option>
+                            <option value="bacalao">Bacalao al Pilpil</option>
+                            <option value="risotto">Risotto de Setas (Vegetariano)</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="alergias">Alergias o intolerancias alimentarias</label>
+                        <textarea id="alergias" name="alergias" rows="3" placeholder="Indícanos si tienes alguna alergia o intolerancia"></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="mensaje">Mensaje adicional (opcional)</label>
+                        <textarea id="mensaje" name="mensaje" rows="3" placeholder="¿Algo más que debamos saber?"></textarea>
+                    </div>
+
+                    <div class="form-group checkbox-group">
+                        <label>
+                            <input type="checkbox" name="privacidad" required>
+                            <span>Acepto la política de privacidad y el tratamiento de mis datos personales *</span>
+                        </label>
+                    </div>
+
+                    <div class="form-group checkbox-group">
+                        <label>
+                            <input type="checkbox" name="donacion">
+                            <span>Quiero hacer una donación adicional de €10</span>
+                        </label>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary btn-large">
+                        Confirmar Reserva
+                    </button>
+
+                    <p class="form-note">* Campos obligatorios. Recibirás un email de confirmación con los detalles de pago.</p>
+                </form>
+
+                <div id="formSuccess" class="form-success" style="display: none;">
+                    <div class="success-icon">✓</div>
+                    <h3>¡Reserva Recibida!</h3>
+                    <p>Gracias por tu inscripción. Te hemos enviado un email con los detalles de pago y confirmación.</p>
+                    <button class="btn btn-secondary" onclick="resetForm()">Nueva Reserva</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="section contacto">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Contacto</h2>
+                <p class="section-subtitle">¿Tienes preguntas? Estamos aquí para ayudarte</p>
+            </div>
+            <div class="contacto-content">
+                <div class="contacto-item">
+                    <div class="contacto-icon">📧</div>
+                    <h4>Email</h4>
+                    <p><a href="mailto:info@cenasolidarialaguia.es">info@cenasolidarialaguia.es</a></p>
+                </div>
+                <div class="contacto-item">
+                    <div class="contacto-icon">📱</div>
+                    <h4>Teléfono</h4>
+                    <p><a href="tel:+34666123456">+34 666 123 456</a></p>
+                </div>
+                <div class="contacto-item">
+                    <div class="contacto-icon">📍</div>
+                    <h4>Ubicación</h4>
+                    <p>Salón Cultural La Guía<br>Calle Principal, 123<br>La Guía, España</p>
+                </div>
+            </div>
+
+            <div class="social-media">
+                <h4>Síguenos en redes sociales</h4>
+                <div class="social-links">
+                    <a href="#" class="social-link" aria-label="Facebook">
+                        <svg width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                        </svg>
+                    </a>
+                    <a href="#" class="social-link" aria-label="Instagram">
+                        <svg width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                        </svg>
+                    </a>
+                    <a href="#" class="social-link" aria-label="Twitter">
+                        <svg width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Cena Solidaria La Guía. Todos los derechos reservados.</p>
+            <p>Evento organizado con el apoyo del Ayuntamiento de La Guía y comercios locales</p>
+        </div>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
