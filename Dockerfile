@@ -13,8 +13,8 @@ RUN echo '<!DOCTYPE html><html><body>OK</body></html>' > /usr/share/nginx/html/h
 # Expose port
 EXPOSE 80
 
-# Health check
-HEALTHCHECK --interval=30s --timeout=3s --start-period=5s --retries=3 \
+# Health check - increased start period and timeout to allow nginx to fully start
+HEALTHCHECK --interval=10s --timeout=5s --start-period=15s --retries=3 \
     CMD wget --quiet --tries=1 --spider http://localhost/health || exit 1
 
 # Start nginx
